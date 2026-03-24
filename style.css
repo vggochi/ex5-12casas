@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel Decorative', serif;
+  color: rgb(174, 0, 255);
+  text-align: center;
+  background: url('constelacao.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(19, 26, 87, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  margin: 100px auto;
+  width: 60%;
+  box-shadow: 0 0 30px rgb(225, 0, 255);
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 0 0 20px #9a37d4;
+}
+
+button {
+  background: rgb(162, 0, 255);
+  color: rgb(247, 250, 255);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Cinzel Decorative', serif;
+}
+
+button:hover {
+  background: #53035e;
+  box-shadow: 0 0 15px rgb(225, 0, 255);
+}
+
+#relatorio {
+  margin-top: 30px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
